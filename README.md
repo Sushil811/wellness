@@ -40,61 +40,6 @@ A comprehensive wellness tracking application built with the MERN stack (MongoDB
 - **Axios** - HTTP client
 - **Context API** - State management
 
-## 📁 Project Structure
-
-```
-wellness-app/
-├── server/                 # Backend
-│   ├── models/            # Database models
-│   │   ├── User.js
-│   │   └── Wellness.js
-│   ├── routes/            # API routes
-│   │   ├── auth.js
-│   │   ├── users.js
-│   │   └── wellness.js
-│   ├── middleware/        # Middleware
-│   │   └── auth.js
-│   ├── server.js          # Main server file
-│   ├── package.json
-│   └── .env
-├── client/                # Frontend
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   │   ├── auth/
-│   │   │   ├── forms/
-│   │   │   └── ...
-│   │   ├── contexts/      # React contexts
-│   │   └── App.js
-│   └── package.json
-└── README.md
-```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB (local installation or MongoDB Atlas)
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd wellness-app
-   ```
-
-2. **Install backend dependencies**
-   ```bash
-   cd server
-   npm install
-   ```
-
-3. **Install frontend dependencies**
-   ```bash
-   cd ../client
-   npm install
-   ```
 
 4. **Set up environment variables**
    
@@ -102,7 +47,7 @@ wellness-app/
    ```env
    PORT=5000
    MONGODB_URI=mongodb://localhost:27017/wellness-app
-   JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+   JWT_SECRET=HJHRGH76KJHERJH7346736766767JUG34564998JHGHBHB
    NODE_ENV=development
    ```
 
@@ -153,14 +98,6 @@ wellness-app/
 - `PUT /api/users/:id` - Update user
 - `DELETE /api/users/:id` - Delete user
 
-## 🎯 Usage
-
-1. **Register/Login**: Create an account or login with existing credentials
-2. **Complete Profile**: Add your fitness goals, activity level, and personal information
-3. **Track Activities**: Use the dashboard to add workouts, nutrition, sleep, or meditation sessions
-4. **View Progress**: Check your wellness tracker to see all your activities
-5. **Manage Data**: Edit or delete activities as needed
-
 ## 🔧 Development
 
 ### Backend Development
@@ -203,6 +140,5 @@ This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- Material-UI for the beautiful UI components
 - MongoDB for the database
 - React community for the excellent documentation 
