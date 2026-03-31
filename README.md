@@ -2,6 +2,8 @@
 
 A comprehensive wellness tracking application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to track their fitness activities, nutrition, sleep, and meditation sessions.
 
+https://youtu.be/AbFtTtugqSU
+
 ## 🚀 Features
 
 ### User Management
